@@ -37,6 +37,15 @@ $ npm install
 ```bash
 $ docker-compose up -d
 ```
+## Setup ENV Configuration
+
+Create .env file with the following properties:
+
+```
+MONGODB=mongodb://localhost:27017/nest-pokemon
+PORT=3000
+DEFAULT_LIMIT=20
+```
 
 ## Running the app
 

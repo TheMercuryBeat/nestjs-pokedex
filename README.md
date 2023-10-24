@@ -78,6 +78,15 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Production Build
+
+1. Create .env.prod file
+2. Add properties in the .env.prod file
+3. Build docker image
+```bash
+$ docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+ ```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
